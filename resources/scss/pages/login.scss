@@ -1,0 +1,155 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-page {
+ height: 1024px;
+  width: 100%;
+
+  background:
+    radial-gradient(circle at center, rgba(0,0,0,0.3), rgba(0,0,0,0.9)),
+    url('/assets/bg.png') no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.login-logo img {
+  width: 50px;
+  height: 44px;
+  margin-top: 8px;
+}
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 32px;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+/* LOGO */
+.login-logo {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: 'Londrina Solid', cursive;
+
+}
+
+/* TITLE */
+.login-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-family: lato ,sans-serif;
+}
+
+.login-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 24px;
+}
+
+/* FORM */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+.form-group input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  outline: none;
+}
+
+.form-group input::placeholder {
+  color: #777;
+}
+
+/* EXTRA LINKS */
+.form-extra {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.form-extra a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.form-extra a:hover {
+  text-decoration: underline;
+}
+
+/* BUTTONS */
+.btn-primary {
+  width: 100%;
+  height: 46px;
+  background: #4f46e5;
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #4338ca;
+}
+
+/* DIVIDER */
+.divider {
+  text-align: center;
+  margin: 18px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+/* GOOGLE */
+.btn-google {
+  height: 46px;
+  border-radius: 14px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-google img {
+  width: 18px;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 24px;
+  }
+}
