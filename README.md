@@ -8,10 +8,9 @@ Chill adalah aplikasi **movie streaming platform berbasis web** yang dirancang u
 
 - 🎥 Akses library film dan acara TV
 - 🔍 Pencarian film dan acara TV secara instan
-- 🤖 Rekomendasi konten berbasis kebiasaan menonton
 - 🌙 Antarmuka modern & user-friendly
 - 📱 Responsive design (desktop & mobile)
-- ⭐ Konten original eksklusif Chill
+
 
 ---
 
