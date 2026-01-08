@@ -2,6 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Masuk | Chill</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +34,10 @@
     <label>Kata Sandi</label>
     <input type="password" name="password" placeholder="Masukkan kata sandi">
   </div>
+<a href="{{ route('register') }}" class="link-register">
+  Belum punya akun? <span>Daftar</span>
+</a>
+
 
   <button type="submit" class="btn-primary">
     Masuk
